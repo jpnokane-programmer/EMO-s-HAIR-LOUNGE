@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+/* Body */
+body {
+  background-color: #FFFFFF;
+  color: #0A1F44;
+  
+}
+
+/* Navigation */
+nav {
+  background-color: #0A1F44;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav h1 {
+  color: #D4AF37;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: #D4AF37;
+}
+
+/* Body spacing */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Header/Hero Section */
+header {
+  background-color: #0A1F44;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header h2 {
+  font-size: 42px;
+  color: #D4AF37;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+header a {
+  background-color: #D4AF37;
+  color: #0A1F44;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+header a:hover {
+  background-color: #FFFFFF;
+  color: #0A1F44;
+}
+
+/* Section */
+section {
+  padding: 60px 100px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 36px;
+  color: #D4AF37;
+  margin-bottom: 40px;
+}
+
+/* Cards */
+div {
+  background-color: #F5E6C8;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+div h3 {
+  color: #0A1F44;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+div p {
+  font-size: 16px;
+  color: #0A1F44;
+}
+
+/* Footer */
+footer {
+  background-color: #0A1F44;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+footer a {
+  color: #D4AF37;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer a:hover {
+  color: #FFFFFF;
+}
