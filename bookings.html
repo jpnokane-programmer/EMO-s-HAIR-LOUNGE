@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bookings | Emo's Hair Lounge</title>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <nav>
+    <img src="images/logo.jpeg" alt="Emo's Hair Lounge Logo">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="bookings.html">Bookings</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h2>Book Your Appointment 📅</h2>
+    <p>We are excited to style you!</p>
+  </header>
+
+  <main>
+    <section class="bookings">
+      <form action="submit_booking.php" method="POST">
+
+        <div style="margin-bottom: 25px;">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <label for="service">Select Service:</label><br>
+          <select id="service" name="service" required>
+            <option value="">--Please choose a service--</option>
+            <option value="haircut">Haircut</option>
+            <option value="styling">Styling</option>
+            <option value="treatment">Treatment</option>
+          </select>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <label for="date">Preferred Date:</label><br>
+          <input type="date" id="date" name="date" required>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <label for="time">Preferred Time:</label><br>
+          <input type="time" id="time" name="time" required>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <label for="notes">Additional Notes:</label><br>
+          <textarea id="notes" name="notes" rows="4" placeholder="Any special requests..."></textarea>
+        </div>
+
+        <div>
+          <button type="submit">Book Appointment</button>
+        </div>
+
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Emo's Hair Lounge | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
